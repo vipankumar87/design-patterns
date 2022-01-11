@@ -54,6 +54,16 @@ class ChoiceQuestion extends Question
     }
 
     /**
+     * Returns whether the choices are multiselect.
+     *
+     * @return bool
+     */
+    public function isMultiselect()
+    {
+        return $this->multiselect;
+    }
+
+    /**
      * Sets multiselect option.
      *
      * When multiselect is set to true, multiple choices can be answered.
@@ -66,16 +76,6 @@ class ChoiceQuestion extends Question
         $this->setValidator($this->getDefaultValidator());
 
         return $this;
-    }
-
-    /**
-     * Returns whether the choices are multiselect.
-     *
-     * @return bool
-     */
-    public function isMultiselect()
-    {
-        return $this->multiselect;
     }
 
     /**

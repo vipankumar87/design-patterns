@@ -194,6 +194,60 @@ class ChoiceFormField extends FormField
     }
 
     /**
+     * Checks whether given value is in the existing options.
+     *
+     * @return bool
+     * @internal since Symfony 5.3
+     *
+     */
+    public function containsOption(string $optionValue, array $options)
+    {
+        if ($this->validationDisabled) {
+            return true;
+        }
+
+        foreach ($options as $option) {
+            if ($option['value'] == $optionValue) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * Returns list of available field options.
+     *
+     * @return array
+     * @internal since Symfony 5.3
+     *
+     */
+    public function availableOptionValues()
+    {
+        $values = [];
+
+        foreach ($this->options as $option) {
+            $values[] = $option['value'];
+        }
+
+        return $values;
+    }
+
+    /**
+     * Disables the internal validation of the field.
+     *
+     * @return $this
+     * @internal since Symfony 5.3
+     *
+     */
+    public function disableValidation()
+    {
+        $this->validationDisabled = true;
+
+        return $this;
+    }
+
+    /**
      * Initializes the form field.
      *
      * @throws \LogicException When node type is incorrect
@@ -263,59 +317,5 @@ class ChoiceFormField extends FormField
         $option['disabled'] = $node->hasAttribute('disabled');
 
         return $option;
-    }
-
-    /**
-     * Checks whether given value is in the existing options.
-     *
-     * @return bool
-     * @internal since Symfony 5.3
-     *
-     */
-    public function containsOption(string $optionValue, array $options)
-    {
-        if ($this->validationDisabled) {
-            return true;
-        }
-
-        foreach ($options as $option) {
-            if ($option['value'] == $optionValue) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    /**
-     * Returns list of available field options.
-     *
-     * @return array
-     * @internal since Symfony 5.3
-     *
-     */
-    public function availableOptionValues()
-    {
-        $values = [];
-
-        foreach ($this->options as $option) {
-            $values[] = $option['value'];
-        }
-
-        return $values;
-    }
-
-    /**
-     * Disables the internal validation of the field.
-     *
-     * @return $this
-     * @internal since Symfony 5.3
-     *
-     */
-    public function disableValidation()
-    {
-        $this->validationDisabled = true;
-
-        return $this;
     }
 }
