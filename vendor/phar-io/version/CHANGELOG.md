@@ -20,6 +20,8 @@ the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
 - [#23](https://github.com/phar-io/version/pull/23): Tilde operator without patch level
 
+
+
 ## [3.0.4] - 14.12.2020
 
 ### Fixed
@@ -32,9 +34,11 @@ the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
 - Comparator method `Version::equals()` added
 
+
 ## [3.0.2] - 27.06.2020
 
 This release now supports PHP 7.2+ and PHP ^8.0. No other changes included.
+
 
 ## [3.0.1] - 09.05.2020
 

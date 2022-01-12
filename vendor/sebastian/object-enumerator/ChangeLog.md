@@ -77,24 +77,14 @@ the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 * Initial release
 
 [4.0.4]: https://github.com/sebastianbergmann/object-enumerator/compare/4.0.3...4.0.4
-
 [4.0.3]: https://github.com/sebastianbergmann/object-enumerator/compare/4.0.2...4.0.3
-
 [4.0.2]: https://github.com/sebastianbergmann/object-enumerator/compare/4.0.1...4.0.2
-
 [4.0.1]: https://github.com/sebastianbergmann/object-enumerator/compare/4.0.0...4.0.1
-
 [4.0.0]: https://github.com/sebastianbergmann/object-enumerator/compare/3.0.3...4.0.0
-
 [3.0.3]: https://github.com/sebastianbergmann/object-enumerator/compare/3.0.2...3.0.3
-
 [3.0.2]: https://github.com/sebastianbergmann/object-enumerator/compare/3.0.1...3.0.2
-
 [3.0.1]: https://github.com/sebastianbergmann/object-enumerator/compare/3.0.0...3.0.1
-
 [3.0.0]: https://github.com/sebastianbergmann/object-enumerator/compare/2.0...3.0.0
-
 [2.0.1]: https://github.com/sebastianbergmann/object-enumerator/compare/2.0.0...2.0.1
-
 [2.0.0]: https://github.com/sebastianbergmann/object-enumerator/compare/1.0...2.0.0
 

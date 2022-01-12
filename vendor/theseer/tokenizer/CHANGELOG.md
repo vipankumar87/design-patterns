@@ -32,6 +32,7 @@ This release is now PHP 8.0 compliant.
 
 * [#2](https://github.com/theseer/tokenizer/issues/2): Fatal error in infection / phpunit
 
+
 ## [1.1.2] - 2019-04-04
 
 ### Changed
@@ -59,11 +60,7 @@ This release is now PHP 8.0 compliant.
 Initial Release
 
 [1.1.3]: https://github.com/theseer/tokenizer/compare/1.1.2...1.1.3
-
 [1.1.2]: https://github.com/theseer/tokenizer/compare/1.1.1...1.1.2
-
 [1.1.1]: https://github.com/theseer/tokenizer/compare/1.1.0...1.1.1
-
 [1.1.0]: https://github.com/theseer/tokenizer/compare/1.0.0...1.1.0
-
 [1.0.0]: https://github.com/theseer/tokenizer/compare/b2493e57de80c1b7414219b28503fa5c6b4d0a98...1.0.0

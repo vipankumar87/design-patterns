@@ -1,0 +1,1 @@
+{"version":1,"defects":{"AbstractFactoryTest::testSomeFeature":4},"times":{"AbstractFactoryTest::testSomeFeature":0.003,"\/var\/www\/html\/vipan\/design-patterns\/tests\/ExampleTest.php::example":0,"\/var\/www\/html\/vipan\/design-patterns\/tests\/AbstractFactoryTest.php::Factory":0.002}}

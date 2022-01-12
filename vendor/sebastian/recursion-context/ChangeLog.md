@@ -28,9 +28,6 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 * Tests etc. are now ignored for archive exports
 
 [4.0.4]: https://github.com/sebastianbergmann/recursion-context/compare/4.0.3...4.0.4
-
 [4.0.3]: https://github.com/sebastianbergmann/recursion-context/compare/4.0.2...4.0.3
-
 [4.0.2]: https://github.com/sebastianbergmann/recursion-context/compare/4.0.1...4.0.2
-
 [4.0.1]: https://github.com/sebastianbergmann/recursion-context/compare/4.0.0...4.0.1

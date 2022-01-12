@@ -136,25 +136,14 @@ the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
   not have parameters correctly
 
 [9.5.11]: https://github.com/sebastianbergmann/phpunit/compare/9.5.10...9.5.11
-
 [9.5.10]: https://github.com/sebastianbergmann/phpunit/compare/9.5.9...9.5.10
-
 [9.5.9]: https://github.com/sebastianbergmann/phpunit/compare/9.5.8...9.5.9
-
 [9.5.8]: https://github.com/sebastianbergmann/phpunit/compare/9.5.7...9.5.8
-
 [9.5.7]: https://github.com/sebastianbergmann/phpunit/compare/9.5.6...9.5.7
-
 [9.5.6]: https://github.com/sebastianbergmann/phpunit/compare/9.5.5...9.5.6
-
 [9.5.5]: https://github.com/sebastianbergmann/phpunit/compare/9.5.4...9.5.5
-
 [9.5.4]: https://github.com/sebastianbergmann/phpunit/compare/9.5.3...9.5.4
-
 [9.5.3]: https://github.com/sebastianbergmann/phpunit/compare/9.5.2...9.5.3
-
 [9.5.2]: https://github.com/sebastianbergmann/phpunit/compare/9.5.1...9.5.2
-
 [9.5.1]: https://github.com/sebastianbergmann/phpunit/compare/9.5.0...9.5.1
-
 [9.5.0]: https://github.com/sebastianbergmann/phpunit/compare/9.4.4...9.5.0

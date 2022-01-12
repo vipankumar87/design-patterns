@@ -104,8 +104,8 @@ class ArgumentNode
     }
 
     /**
-     * @param string|null $typeHint
      * @deprecated use setArgumentTypeNode instead
+     * @param string|null $typeHint
      */
     public function setTypeHint($typeHint = null)
     {
@@ -113,8 +113,8 @@ class ArgumentNode
     }
 
     /**
-     * @return bool
      * @deprecated use getArgumentTypeNode instead
+     * @return bool
      */
     public function isNullable()
     {
@@ -122,8 +122,8 @@ class ArgumentNode
     }
 
     /**
-     * @param bool $isNullable
      * @deprecated use getArgumentTypeNode instead
+     * @param bool $isNullable
      */
     public function setAsNullable($isNullable = true)
     {

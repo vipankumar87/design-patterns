@@ -44,14 +44,9 @@ the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
 * This component is no longer supported on PHP 7.0 and PHP 7.1
 
 [5.0.3]: https://github.com/sebastianbergmann/global-state/compare/5.0.2...5.0.3
-
 [5.0.2]: https://github.com/sebastianbergmann/global-state/compare/5.0.1...5.0.2
-
 [5.0.1]: https://github.com/sebastianbergmann/global-state/compare/5.0.0...5.0.1
-
 [5.0.0]: https://github.com/sebastianbergmann/global-state/compare/4.0.0...5.0.0
-
 [4.0.0]: https://github.com/sebastianbergmann/global-state/compare/3.0.0...4.0.0
-
 [3.0.0]: https://github.com/sebastianbergmann/global-state/compare/2.0.0...3.0.0
 

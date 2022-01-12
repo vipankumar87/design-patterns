@@ -47,36 +47,6 @@ class Class_ extends ClassLike
         $this->attrGroups = $subNodes['attrGroups'] ?? [];
     }
 
-    /**
-     * @internal
-     */
-    public static function verifyModifier($a, $b)
-    {
-        if ($a & self::VISIBILITY_MODIFIER_MASK && $b & self::VISIBILITY_MODIFIER_MASK) {
-            throw new Error('Multiple access type modifiers are not allowed');
-        }
-
-        if ($a & self::MODIFIER_ABSTRACT && $b & self::MODIFIER_ABSTRACT) {
-            throw new Error('Multiple abstract modifiers are not allowed');
-        }
-
-        if ($a & self::MODIFIER_STATIC && $b & self::MODIFIER_STATIC) {
-            throw new Error('Multiple static modifiers are not allowed');
-        }
-
-        if ($a & self::MODIFIER_FINAL && $b & self::MODIFIER_FINAL) {
-            throw new Error('Multiple final modifiers are not allowed');
-        }
-
-        if ($a & self::MODIFIER_READONLY && $b & self::MODIFIER_READONLY) {
-            throw new Error('Multiple readonly modifiers are not allowed');
-        }
-
-        if ($a & 48 && $b & 48) {
-            throw new Error('Cannot use the final modifier on an abstract class member');
-        }
-    }
-
     public function getSubNodeNames(): array
     {
         return ['attrGroups', 'flags', 'name', 'extends', 'implements', 'stmts'];
@@ -110,6 +80,36 @@ class Class_ extends ClassLike
     public function isAnonymous(): bool
     {
         return null === $this->name;
+    }
+
+    /**
+     * @internal
+     */
+    public static function verifyModifier($a, $b)
+    {
+        if ($a & self::VISIBILITY_MODIFIER_MASK && $b & self::VISIBILITY_MODIFIER_MASK) {
+            throw new Error('Multiple access type modifiers are not allowed');
+        }
+
+        if ($a & self::MODIFIER_ABSTRACT && $b & self::MODIFIER_ABSTRACT) {
+            throw new Error('Multiple abstract modifiers are not allowed');
+        }
+
+        if ($a & self::MODIFIER_STATIC && $b & self::MODIFIER_STATIC) {
+            throw new Error('Multiple static modifiers are not allowed');
+        }
+
+        if ($a & self::MODIFIER_FINAL && $b & self::MODIFIER_FINAL) {
+            throw new Error('Multiple final modifiers are not allowed');
+        }
+
+        if ($a & self::MODIFIER_READONLY && $b & self::MODIFIER_READONLY) {
+            throw new Error('Multiple readonly modifiers are not allowed');
+        }
+
+        if ($a & 48 && $b & 48) {
+            throw new Error('Cannot use the final modifier on an abstract class member');
+        }
     }
 
     public function getType(): string

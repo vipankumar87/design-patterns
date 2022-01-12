@@ -7,6 +7,21 @@ use PhpParser\Node\FunctionLike;
 
 class ClassMethod extends Node\Stmt implements FunctionLike
 {
+    /** @var int Flags */
+    public $flags;
+    /** @var bool Whether to return by reference */
+    public $byRef;
+    /** @var Node\Identifier Name */
+    public $name;
+    /** @var Node\Param[] Parameters */
+    public $params;
+    /** @var null|Node\Identifier|Node\Name|Node\ComplexType Return type */
+    public $returnType;
+    /** @var Node\Stmt[]|null Statements */
+    public $stmts;
+    /** @var Node\AttributeGroup[] PHP attribute groups */
+    public $attrGroups;
+
     private static $magicNames = [
         '__construct' => true,
         '__destruct' => true,
@@ -24,20 +39,6 @@ class ClassMethod extends Node\Stmt implements FunctionLike
         '__invoke' => true,
         '__debuginfo' => true,
     ];
-    /** @var int Flags */
-    public $flags;
-    /** @var bool Whether to return by reference */
-    public $byRef;
-    /** @var Node\Identifier Name */
-    public $name;
-    /** @var Node\Param[] Parameters */
-    public $params;
-    /** @var null|Node\Identifier|Node\Name|Node\ComplexType Return type */
-    public $returnType;
-    /** @var Node\Stmt[]|null Statements */
-    public $stmts;
-    /** @var Node\AttributeGroup[] PHP attribute groups */
-    public $attrGroups;
 
     /**
      * Constructs a class method node.

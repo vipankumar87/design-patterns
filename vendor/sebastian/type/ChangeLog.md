@@ -108,33 +108,18 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
   on [code contributed by Michel Hartmann to PHPUnit](https://github.com/sebastianbergmann/phpunit/pull/3673)
 
 [2.3.4]: https://github.com/sebastianbergmann/type/compare/ca39369c41313ed12c071ed38ecda8fcdb248859...2.3.4
-
 [2.3.3]: https://github.com/sebastianbergmann/type/compare/2.3.2...ca39369c41313ed12c071ed38ecda8fcdb248859
-
 [2.3.2]: https://github.com/sebastianbergmann/type/compare/2.3.1...2.3.2
-
 [2.3.1]: https://github.com/sebastianbergmann/type/compare/2.3.0...2.3.1
-
 [2.3.0]: https://github.com/sebastianbergmann/type/compare/2.2.2...2.3.0
-
 [2.2.2]: https://github.com/sebastianbergmann/type/compare/2.2.1...2.2.2
-
 [2.2.1]: https://github.com/sebastianbergmann/type/compare/2.2.0...2.2.1
-
 [2.2.0]: https://github.com/sebastianbergmann/type/compare/2.1.1...2.2.0
-
 [2.1.1]: https://github.com/sebastianbergmann/type/compare/2.1.0...2.1.1
-
 [2.1.0]: https://github.com/sebastianbergmann/type/compare/2.0.0...2.1.0
-
 [2.0.0]: https://github.com/sebastianbergmann/type/compare/1.1.3...2.0.0
-
 [1.1.3]: https://github.com/sebastianbergmann/type/compare/1.1.2...1.1.3
-
 [1.1.2]: https://github.com/sebastianbergmann/type/compare/1.1.1...1.1.2
-
 [1.1.1]: https://github.com/sebastianbergmann/type/compare/1.1.0...1.1.1
-
 [1.1.0]: https://github.com/sebastianbergmann/type/compare/1.0.0...1.1.0
-
 [1.0.0]: https://github.com/sebastianbergmann/type/compare/ff74aa41746bd8d10e931843ebf37d42da513ede...1.0.0

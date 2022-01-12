@@ -238,47 +238,25 @@ the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
   when `exit` called inside
 
 [8.5.22]: https://github.com/sebastianbergmann/phpunit/compare/8.5.21...8.5.22
-
 [8.5.21]: https://github.com/sebastianbergmann/phpunit/compare/8.5.20...8.5.21
-
 [8.5.20]: https://github.com/sebastianbergmann/phpunit/compare/8.5.19...8.5.20
-
 [8.5.19]: https://github.com/sebastianbergmann/phpunit/compare/8.5.18...8.5.19
-
 [8.5.18]: https://github.com/sebastianbergmann/phpunit/compare/8.5.17...8.5.18
-
 [8.5.17]: https://github.com/sebastianbergmann/phpunit/compare/8.5.16...8.5.17
-
 [8.5.16]: https://github.com/sebastianbergmann/phpunit/compare/8.5.15...8.5.16
-
 [8.5.15]: https://github.com/sebastianbergmann/phpunit/compare/8.5.14...8.5.15
-
 [8.5.14]: https://github.com/sebastianbergmann/phpunit/compare/8.5.13...8.5.14
-
 [8.5.13]: https://github.com/sebastianbergmann/phpunit/compare/8.5.12...8.5.13
-
 [8.5.12]: https://github.com/sebastianbergmann/phpunit/compare/8.5.11...8.5.12
-
 [8.5.11]: https://github.com/sebastianbergmann/phpunit/compare/8.5.10...8.5.11
-
 [8.5.10]: https://github.com/sebastianbergmann/phpunit/compare/8.5.9...8.5.10
-
 [8.5.9]: https://github.com/sebastianbergmann/phpunit/compare/8.5.8...8.5.9
-
 [8.5.8]: https://github.com/sebastianbergmann/phpunit/compare/8.5.7...8.5.8
-
 [8.5.7]: https://github.com/sebastianbergmann/phpunit/compare/8.5.6...8.5.7
-
 [8.5.6]: https://github.com/sebastianbergmann/phpunit/compare/8.5.5...8.5.6
-
 [8.5.5]: https://github.com/sebastianbergmann/phpunit/compare/8.5.4...8.5.5
-
 [8.5.4]: https://github.com/sebastianbergmann/phpunit/compare/8.5.3...8.5.4
-
 [8.5.3]: https://github.com/sebastianbergmann/phpunit/compare/8.5.2...8.5.3
-
 [8.5.2]: https://github.com/sebastianbergmann/phpunit/compare/8.5.1...8.5.2
-
 [8.5.1]: https://github.com/sebastianbergmann/phpunit/compare/8.5.0...8.5.1
-
 [8.5.0]: https://github.com/sebastianbergmann/phpunit/compare/8.4.3...8.5.0
