@@ -1,7 +1,8 @@
 {
   "autoload": {
     "classmap": [
-      "Factory"
+      "Factory",
+      "Creational"
     ]
   },
   "require-dev": {
