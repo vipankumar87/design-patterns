@@ -174,6 +174,8 @@ class ComposerStaticInit48c8d79ac916efdafc659885e2ffdbc8
         'DesignPatterns\\Creational\\FactoryMethod\\LoggerFactory' => __DIR__ . '/../..' . '/Creational/FactoryMethod/LoggerFactory.php',
         'DesignPatterns\\Creational\\FactoryMethod\\StdoutLogger' => __DIR__ . '/../..' . '/Creational/FactoryMethod/StdoutLogger.php',
         'DesignPatterns\\Creational\\FactoryMethod\\StdoutLoggerFactory' => __DIR__ . '/../..' . '/Creational/FactoryMethod/StdoutLoggerFactory.php',
+        'DesignPatterns\\Creational\\Pool\\StringReverseWorker' => __DIR__ . '/../..' . '/Creational/Pool/StringReverseWorker.php',
+        'DesignPatterns\\Creational\\Pool\\WorkerPool' => __DIR__ . '/../..' . '/Creational/Pool/WorkerPool.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',

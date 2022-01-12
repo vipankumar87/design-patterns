@@ -32,6 +32,8 @@ return array(
     'DesignPatterns\\Creational\\FactoryMethod\\LoggerFactory' => $baseDir . '/Creational/FactoryMethod/LoggerFactory.php',
     'DesignPatterns\\Creational\\FactoryMethod\\StdoutLogger' => $baseDir . '/Creational/FactoryMethod/StdoutLogger.php',
     'DesignPatterns\\Creational\\FactoryMethod\\StdoutLoggerFactory' => $baseDir . '/Creational/FactoryMethod/StdoutLoggerFactory.php',
+    'DesignPatterns\\Creational\\Pool\\StringReverseWorker' => $baseDir . '/Creational/Pool/StringReverseWorker.php',
+    'DesignPatterns\\Creational\\Pool\\WorkerPool' => $baseDir . '/Creational/Pool/WorkerPool.php',
     'Normalizer' => $vendorDir . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
     'PHPUnit\\Exception' => $vendorDir . '/phpunit/phpunit/src/Exception.php',
     'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => $vendorDir . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
