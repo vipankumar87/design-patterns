@@ -29,3 +29,7 @@ test("Car is vehicle", closure: function () {
     $newVehicle = (new Director())->build($truckBuilder);
     expect($newVehicle)->toBeInstanceOf(Vehicle::class);
 });
+
+test("is exactly two", function () {
+    expect(2)->toBeTwo();
+});

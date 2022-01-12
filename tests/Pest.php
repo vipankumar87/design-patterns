@@ -28,6 +28,10 @@ expect()->extend('toBeOne', function () {
     return $this->toBe(1);
 });
 
+expect()->extend('toBeTwo', function () {
+    return $this->toBe(2);
+});
+
 /*
 |--------------------------------------------------------------------------
 | Functions
