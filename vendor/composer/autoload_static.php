@@ -148,6 +148,8 @@ class ComposerStaticInit48c8d79ac916efdafc659885e2ffdbc8
     );
 
     public static $classMap = array (
+        'Cloning\\Address' => __DIR__ . '/../..' . '/Cloning/Address.php',
+        'Cloning\\Person' => __DIR__ . '/../..' . '/Cloning/Person.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'DesignPatterns\\Creational\\AbstractFactory\\CsvWriter' => __DIR__ . '/../..' . '/Factory/Creational/AbstractFactory/CsvWriter.php',
         'DesignPatterns\\Creational\\AbstractFactory\\JsonWriter' => __DIR__ . '/../..' . '/Factory/Creational/AbstractFactory/JsonWriter.php',

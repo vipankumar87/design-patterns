@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Cloning\\Address' => $baseDir . '/Cloning/Address.php',
+    'Cloning\\Person' => $baseDir . '/Cloning/Person.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'DesignPatterns\\Creational\\AbstractFactory\\CsvWriter' => $baseDir . '/Factory/Creational/AbstractFactory/CsvWriter.php',
     'DesignPatterns\\Creational\\AbstractFactory\\JsonWriter' => $baseDir . '/Factory/Creational/AbstractFactory/JsonWriter.php',
