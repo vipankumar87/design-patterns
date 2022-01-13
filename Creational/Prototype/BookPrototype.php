@@ -15,7 +15,7 @@ abstract class BookPrototype
     /**
      * @return mixed
      */
-//    abstract public function __clone();
+    abstract public function __clone();
 
     /**
      * @return string
