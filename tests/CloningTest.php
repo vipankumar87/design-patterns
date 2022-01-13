@@ -11,3 +11,10 @@ it('Can copy all property', closure: function () {
     var_dump($bob);
     var_dump($bob2);
 });
+
+it('has emails', function ($email) {
+    expect($email)->not->toBeEmpty();
+})->with([
+    'enunomaduro@gmail.com',
+    'other@example.com'
+]);
